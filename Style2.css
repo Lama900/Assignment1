@@ -1,0 +1,160 @@
+/* style.css to style Assignment 1  */
+
+#container{
+	background-color: d8e2dc;
+
+	height: 200%;
+	width: 100%;
+
+}
+
+#container p{
+	text-align: center;
+}
+
+body{
+	background-color: cad2c5;
+	font-family: monospace;
+	font-size: 16px;
+	height: 100%;
+	width: 100%;
+	
+
+}
+
+.divTop{
+	
+	float: top;
+	display: flex;
+
+	
+
+}
+
+svg {
+	height:40px;
+	width: 40px;
+	text-align: center;
+	margin-left: 70px;
+
+
+}
+
+button{
+	background-color: transparent;
+	border: none;
+}
+
+.divTop div{
+	display: flex;
+}
+
+.divleft{
+	background-color: edede9;
+	margin-top: 35px;
+	float: left;
+	margin-left: 100px;
+	height: 900px;
+	width: 30%;
+
+}
+
+.divright{
+	background-color: edede9;
+	margin-top: 35px;
+	float: right;
+	margin-right: 100px;
+	height: 900px;
+	width: 50%;
+}
+
+
+
+h1{ 
+	font-family: monospace;
+	text-align: center;
+
+
+}
+
+#SW{
+	text-align: center;
+}
+
+h3 {
+	text-align: left;
+	margin-left: 15px;
+	font-size: 27px;
+}
+
+
+
+#skill {
+	
+	margin-top: 50px;
+    
+
+}
+
+#project{
+	
+	margin-top: 80px;
+    
+}
+
+
+
+
+.divright div{
+	display: flex;
+
+}
+
+
+
+
+
+.project1{
+
+
+	margin-left: 100px;
+
+
+}
+
+img {
+	margin-left: 30px;
+	height: 200px;
+	width: 150px;
+	margin-bottom: 10px;
+}
+
+#link{
+	float: center;
+
+}
+
+.projecttitle{
+	margin-left: 50px;
+	font-size: 20px;
+	margin-top: 0px;
+}
+
+
+#contact {
+	
+	margin-top: 50px;
+    
+}
+
+@media (max-width: 1000px)
+{
+	.container
+	{
+		margin: 10px;
+		grid-template-columns: repeat(1,1fr);
+	}
+
+	}
+
+
